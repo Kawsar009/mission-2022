@@ -136,21 +136,38 @@ p {
   background-size: 120px;
 }
 
-.develop-without-limits .develop-img img {
+.develop-img img,
+.community-img img {
   width: 300px;
   height: 300px;
 }
 
-.develop-without-limits .develop-text {
+.develop-text {
   margin-left: 60px;
 }
 
-.develop-text h3 {
+.develop-text h3,
+.community-text h3 {
   font-size: 36px;
   font-weight: 700;
   margin-bottom: 20px;
 }
 
-.develop-text p {
+.develop-text p,
+.community-text p {
   margin-bottom: 20px;
+}
+
+.know-global-community {
+  display: flex;
+  align-items: center;
+  padding: 60px 90px;
+  background-image: url(images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-size: 150px;
+  background-position: 98% 98%;
+}
+
+.community-text {
+  margin-right: 60px;
 }
