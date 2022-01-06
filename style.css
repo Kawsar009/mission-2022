@@ -124,3 +124,33 @@ p {
 .right-mission {
   background-color: rgb(255, 244, 214, 0.9);
 }
+
+.develop-without-limits {
+  display: flex;
+  align-items: center;
+  margin: 60px 0px;
+  padding: 0px 90px;
+  background-image: url(images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-position: 40px 50%;
+  background-size: 120px;
+}
+
+.develop-without-limits .develop-img img {
+  width: 300px;
+  height: 300px;
+}
+
+.develop-without-limits .develop-text {
+  margin-left: 60px;
+}
+
+.develop-text h3 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.develop-text p {
+  margin-bottom: 20px;
+}
