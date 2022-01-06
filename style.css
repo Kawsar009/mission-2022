@@ -147,14 +147,16 @@ p {
 }
 
 .develop-text h3,
-.community-text h3 {
+.community-text h3,
+.corona-app-text h3 {
   font-size: 36px;
   font-weight: 700;
   margin-bottom: 20px;
 }
 
 .develop-text p,
-.community-text p {
+.community-text p,
+.corona-app-text p {
   margin-bottom: 20px;
 }
 
@@ -170,4 +172,52 @@ p {
 
 .community-text {
   margin-right: 60px;
+}
+
+.corona-application h2 span,
+.corona-app-text h3 span {
+  color: #ffad5a;
+}
+
+.corona-app-container {
+  display: flex;
+  align-items: center;
+  margin: 40px 90px;
+}
+
+.corona-app-img {
+  width: 50%;
+  text-align: center;
+}
+
+.corona-app-img img {
+  height: 450px;
+  width: 300px;
+}
+
+.corona-app-text {
+  width: 50%;
+}
+
+footer {
+  text-align: center;
+  background-color: #0b0d17;
+  padding: 20px;
+}
+
+footer h2 {
+  color: white;
+  font-family: "Lobster", cursive;
+  font-size: 36px;
+}
+
+footer h2 span {
+  color: #ffad5a;
+  font-family: "Lobster", cursive;
+  font-size: 36px;
+}
+
+footer p {
+  color: white;
+  font-size: 14px;
 }
