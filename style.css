@@ -1,8 +1,3 @@
-/* font-family: 'Lobster', cursive;
-font-family: 'Poppins', sans-serif;
-font-family: 'Roboto', sans-serif;
-font-family: 'Yeseva One', cursive; */
-
 * {
   margin: 0px;
   padding: 0px;
@@ -27,7 +22,6 @@ p {
   background-color: #ff5959;
   border-radius: 5px;
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
 }
 
 .top-section {
@@ -127,6 +121,13 @@ p {
   background-color: rgb(255, 244, 214, 0.9);
 }
 
+.merged-section {
+  background-image: url(images/shapes/dot-pattern.jpg);
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 60px 150px;
+}
+
 .develop-without-limits {
   display: flex;
   align-items: center;
@@ -160,6 +161,13 @@ p {
 .community-text p,
 .corona-app-text p {
   margin-bottom: 20px;
+}
+
+.parent-merged-section {
+  background-image: url(images/shapes/dot-pattern.jpg);
+  background-repeat: no-repeat;
+  background-position: 0px 830px;
+  background-size: 60px 150px;
 }
 
 .know-global-community {
